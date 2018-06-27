@@ -22815,25 +22815,16 @@ Source: www.kingbright.com</description>
 <pinref part="64KX8" gate="G$1" pin="!WE"/>
 </segment>
 </net>
-<net name="!RD" class="0">
-<segment>
-<wire x1="223.52" y1="25.4" x2="213.36" y2="25.4" width="0.1524" layer="91"/>
-<label x="213.36" y="25.4" size="1.778" layer="95"/>
-<pinref part="64KX8" gate="G$1" pin="!OE"/>
-</segment>
-</net>
 <net name="A15" class="0">
 <segment>
 <wire x1="223.52" y1="40.64" x2="210.82" y2="40.64" width="0.1524" layer="91"/>
 <label x="215.9" y="40.64" size="1.778" layer="95"/>
 <pinref part="64KX8" gate="G$1" pin="A15"/>
 </segment>
-</net>
-<net name="!ROMCS" class="0">
 <segment>
-<wire x1="223.52" y1="27.94" x2="213.36" y2="27.94" width="0.1524" layer="91"/>
-<label x="213.36" y="27.94" size="1.778" layer="95"/>
-<pinref part="64KX8" gate="G$1" pin="!CE"/>
+<pinref part="JP1" gate="CRTRDG" pin="A15"/>
+<wire x1="72.39" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
+<label x="81.28" y="63.5" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="A14" class="0">
@@ -22841,6 +22832,35 @@ Source: www.kingbright.com</description>
 <wire x1="223.52" y1="43.18" x2="210.82" y2="43.18" width="0.1524" layer="91"/>
 <label x="215.9" y="43.18" size="1.778" layer="95"/>
 <pinref part="64KX8" gate="G$1" pin="A14"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="CRTRDG" pin="A14"/>
+<wire x1="72.39" y1="60.96" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
+<label x="81.28" y="60.96" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="!ROMCE" class="0">
+<segment>
+<pinref part="JP1" gate="CRTRDG" pin="!SLTSL"/>
+<wire x1="44.45" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
+<label x="30.48" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="223.52" y1="27.94" x2="213.36" y2="27.94" width="0.1524" layer="91"/>
+<label x="213.36" y="27.94" size="1.778" layer="95"/>
+<pinref part="64KX8" gate="G$1" pin="!CE"/>
+</segment>
+</net>
+<net name="!ROMOE" class="0">
+<segment>
+<pinref part="JP1" gate="CRTRDG" pin="!CS1"/>
+<wire x1="44.45" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
+<label x="30.48" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="223.52" y1="25.4" x2="213.36" y2="25.4" width="0.1524" layer="91"/>
+<label x="213.36" y="25.4" size="1.778" layer="95"/>
+<pinref part="64KX8" gate="G$1" pin="!OE"/>
 </segment>
 </net>
 </nets>
