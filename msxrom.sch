@@ -4848,7 +4848,7 @@ iorq is low and one of !rd! or !wr! is asserted</text>
 <wire x1="-7.62" y1="127" x2="-7.62" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="127" x2="-12.7" y2="127" width="0.1524" layer="91"/>
 <junction x="-7.62" y="127"/>
-<label x="63.5" y="99.06" size="1.778" layer="95"/>
+<label x="-15.24" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="210.82" y="132.08" size="1.778" layer="95" font="vector" xref="yes"/>
@@ -5129,18 +5129,6 @@ iorq is low and one of !rd! or !wr! is asserted</text>
 <label x="22.86" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="!IOSEL" class="0">
-<segment>
-<pinref part="V2" gate="1" pin="Y"/>
-<wire x1="99.06" y1="152.4" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
-<label x="109.22" y="152.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<label x="223.52" y="139.7" size="1.778" layer="95" font="vector" xref="yes"/>
-<wire x1="223.52" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-7" pin="KL"/>
-</segment>
-</net>
 <net name="D0" class="0">
 <segment>
 <wire x1="223.52" y1="160.02" x2="205.74" y2="160.02" width="0.1524" layer="91"/>
@@ -5207,6 +5195,11 @@ iorq is low and one of !rd! or !wr! is asserted</text>
 <label x="180.34" y="139.7" size="1.778" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="X2" gate="-8" pin="KL"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="CRTRDG" pin="!RESET"/>
+<wire x1="45.72" y1="55.88" x2="29.21" y2="55.88" width="0.1524" layer="91"/>
+<label x="40.64" y="55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D3" class="0">
 <segment>
@@ -5256,6 +5249,18 @@ iorq is low and one of !rd! or !wr! is asserted</text>
 <label x="175.26" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="X2" gate="-4" pin="KL"/>
 <wire x1="193.04" y1="134.62" x2="175.26" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IOSEL" class="0">
+<segment>
+<wire x1="99.06" y1="127" x2="111.76" y2="127" width="0.1524" layer="91"/>
+<pinref part="V2" gate="1" pin="W"/>
+<label x="106.68" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="223.52" y="139.7" size="1.778" layer="95" font="vector" xref="yes"/>
+<wire x1="223.52" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-7" pin="KL"/>
 </segment>
 </net>
 </nets>
