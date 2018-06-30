@@ -27470,6 +27470,156 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="jump-0r-smd" urn="urn:adsk.eagle:library:251">
+<description>Soldering jumper and bridges</description>
+<packages>
+<package name="A0R-JMP" urn="urn:adsk.eagle:footprint:15382/1" library_version="1">
+<description>&lt;b&gt;0R Jumper Variant A&lt;/b&gt;&lt;p&gt;
+chip 0805</description>
+<wire x1="0.635" y1="1.26" x2="0.635" y2="0.44" width="0.1524" layer="51"/>
+<wire x1="-0.635" y1="1.26" x2="-0.635" y2="0.44" width="0.1524" layer="51"/>
+<smd name="1" x="0" y="1.7" dx="1.3" dy="1.5" layer="1" rot="R270"/>
+<smd name="2" x="0" y="0" dx="1.3" dy="1.5" layer="1" rot="R270"/>
+<smd name="3" x="0" y="-1.7" dx="1.3" dy="1.5" layer="1" rot="R270"/>
+<text x="-0.762" y="2.716" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.762" y="-3.986" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3235" y1="-0.5814" x2="0.3265" y2="0.8186" layer="51" rot="R270"/>
+<rectangle x1="-0.3235" y1="0.8918" x2="0.3265" y2="2.2918" layer="51" rot="R270"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+</package>
+<package name="B0R-JMP" urn="urn:adsk.eagle:footprint:15383/1" library_version="1">
+<description>&lt;b&gt;0R Jumper Variant B&lt;/b&gt;&lt;p&gt;
+chip 0805</description>
+<wire x1="-0.635" y1="-0.44" x2="-0.635" y2="-1.26" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="-1.26" x2="0.635" y2="-0.44" width="0.1524" layer="51"/>
+<smd name="1" x="0" y="1.7" dx="1.3" dy="1.5" layer="1" rot="R270"/>
+<smd name="2" x="0" y="0" dx="1.3" dy="1.5" layer="1" rot="R270"/>
+<smd name="3" x="0" y="-1.7" dx="1.3" dy="1.5" layer="1" rot="R270"/>
+<text x="-0.762" y="2.716" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.762" y="-3.986" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3235" y1="-2.2814" x2="0.3265" y2="-0.8814" layer="51" rot="R270"/>
+<rectangle x1="-0.3235" y1="-0.8082" x2="0.3265" y2="0.5918" layer="51" rot="R270"/>
+</package>
+<package name="C0R-JMP" urn="urn:adsk.eagle:footprint:15384/1" library_version="1">
+<description>&lt;b&gt;0R Jumper Variant C&lt;/b&gt;&lt;p&gt;
+Solder type</description>
+<wire x1="0.61" y1="0.66" x2="0.61" y2="0.34" width="0.1524" layer="51"/>
+<wire x1="-0.61" y1="0.66" x2="-0.61" y2="0.34" width="0.1524" layer="51"/>
+<smd name="1" x="0" y="0.938" dx="0.8" dy="1" layer="1" roundness="100"/>
+<smd name="2" x="0" y="0" dx="1" dy="0.8" layer="1" roundness="50"/>
+<smd name="3" x="0" y="-0.938" dx="0.8" dy="1" layer="1" roundness="100"/>
+<text x="-0.762" y="2.716" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.762" y="-3.986" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3235" y1="-0.6814" x2="0.3265" y2="0.7186" layer="51" rot="R270"/>
+<rectangle x1="-0.3235" y1="0.2338" x2="0.3265" y2="1.6338" layer="51" rot="R270"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="A0R-JMP" urn="urn:adsk.eagle:package:15385/1" type="box" library_version="1">
+<description>0R Jumper Variant A
+chip 0805</description>
+<packageinstances>
+<packageinstance name="A0R-JMP"/>
+</packageinstances>
+</package3d>
+<package3d name="B0R-JMP" urn="urn:adsk.eagle:package:15387/1" type="box" library_version="1">
+<description>0R Jumper Variant B
+chip 0805</description>
+<packageinstances>
+<packageinstance name="B0R-JMP"/>
+</packageinstances>
+</package3d>
+<package3d name="C0R-JMP" urn="urn:adsk.eagle:package:15386/1" type="box" library_version="1">
+<description>0R Jumper Variant C
+Solder type</description>
+<packageinstances>
+<packageinstance name="C0R-JMP"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="0RJM" urn="urn:adsk.eagle:symbol:15380/1" library_version="1">
+<wire x1="0" y1="2.54" x2="0" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="1.524" x2="0.254" y2="1.524" width="0.508" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.254" y1="-1.016" x2="0.254" y2="-1.016" width="0.508" layer="94" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="1.016" x2="-0.254" y2="1.016" width="0.508" layer="94" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="-1.524" x2="-0.254" y2="-1.524" width="0.508" layer="94" curve="-180" cap="flat"/>
+<text x="2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="0" y="2.54" visible="off" length="point" direction="pas" rot="R270"/>
+<pin name="3" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="JMP" urn="urn:adsk.eagle:symbol:15381/1" library_version="1">
+<wire x1="0.762" y1="-0.254" x2="0.508" y2="-0.254" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.254" y1="-0.254" x2="-0.254" y2="-0.254" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.508" y1="-0.254" x2="-0.762" y2="-0.254" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.762" y1="-2.286" x2="0.508" y2="-2.286" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.254" y1="-2.286" x2="-0.254" y2="-2.286" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.508" y1="-2.286" x2="-0.762" y2="-2.286" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.762" y1="-0.254" x2="0.762" y2="-0.508" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.762" y1="-0.762" x2="0.762" y2="-1.016" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.762" y1="-1.524" x2="0.762" y2="-1.778" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.762" y1="-2.032" x2="0.762" y2="-2.286" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.762" y1="-2.286" x2="-0.762" y2="-2.032" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.762" y1="-1.778" x2="-0.762" y2="-1.524" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.762" y1="-1.016" x2="-0.762" y2="-0.762" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.762" y1="-0.508" x2="-0.762" y2="-0.254" width="0.1524" layer="94" style="shortdash"/>
+<rectangle x1="-0.508" y1="-2.032" x2="0.508" y2="-0.508" layer="94" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="0R-JUMP" urn="urn:adsk.eagle:component:15388/1" prefix="JMP" library_version="1">
+<description>&lt;b&gt;SMD 0R 0805 Jumper&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="-0R" symbol="0RJM" x="0" y="0" addlevel="always"/>
+<gate name="G$2" symbol="JMP" x="-2.54" y="2.54" addlevel="always"/>
+</gates>
+<devices>
+<device name="A" package="A0R-JMP">
+<connects>
+<connect gate="-0R" pin="1" pad="1"/>
+<connect gate="-0R" pin="2" pad="2"/>
+<connect gate="-0R" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15385/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B" package="B0R-JMP">
+<connects>
+<connect gate="-0R" pin="1" pad="1"/>
+<connect gate="-0R" pin="2" pad="2"/>
+<connect gate="-0R" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15387/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C" package="C0R-JMP">
+<connects>
+<connect gate="-0R" pin="1" pad="1"/>
+<connect gate="-0R" pin="2" pad="2"/>
+<connect gate="-0R" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15386/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -27480,7 +27630,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="LED-WHITE" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="SMCB" value="10u"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="SMCB" value="22u"/>
 <part name="U1" library="Microchip-PIC32MX1-2-3-4-5-6-7" deviceset="PIC32MX1" device="" technology="30F064D-I/PT"/>
@@ -27489,7 +27638,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="R0805W"/>
 <part name="IC2" library="linear" deviceset="*317" device="EMP"/>
-<part name="LED-RED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="R0805W"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805"/>
@@ -27509,7 +27657,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
-<part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
 <part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
 <part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
 <part name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1"/>
@@ -27521,6 +27668,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R2" library="resistor" deviceset="R-EU_" device="R0805W"/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="R0805W"/>
 <part name="R6" library="resistor" deviceset="R-EU_" device="R0805W"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
+<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
+<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="R0805W"/>
+<part name="JMP1" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="A" package3d_urn="urn:adsk.eagle:package:15385/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -27529,7 +27681,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="111.76" y="193.04" size="1.778" layer="91">PIC caps</text>
 </plain>
 <instances>
-<instance part="LED-WHITE" gate="G$1" x="139.7" y="73.66" rot="R270"/>
 <instance part="C1" gate="G$1" x="119.38" y="106.68"/>
 <instance part="C2" gate="G$1" x="154.94" y="106.68"/>
 <instance part="U1" gate="G$1" x="50.8" y="154.94"/>
@@ -27538,7 +27689,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="C10" gate="G$1" x="104.14" y="203.2"/>
 <instance part="R1" gate="G$1" x="124.46" y="73.66"/>
 <instance part="IC2" gate="A1" x="137.16" y="116.84"/>
-<instance part="LED-RED" gate="G$1" x="139.7" y="45.72" rot="R270"/>
 <instance part="R3" gate="G$1" x="124.46" y="45.72"/>
 <instance part="C3" gate="G$1" x="160.02" y="203.2"/>
 <instance part="C4" gate="G$1" x="152.4" y="203.2"/>
@@ -27558,7 +27708,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP1" gate="G$1" x="261.62" y="111.76"/>
 <instance part="TP2" gate="G$1" x="264.16" y="111.76"/>
 <instance part="TP3" gate="G$1" x="251.46" y="111.76"/>
-<instance part="TP4" gate="G$1" x="78.74" y="129.54" rot="R90"/>
 <instance part="TP5" gate="G$1" x="73.66" y="149.86" rot="R90"/>
 <instance part="TP6" gate="G$1" x="73.66" y="157.48" rot="R90"/>
 <instance part="TP8" gate="G$1" x="22.86" y="129.54" rot="R270"/>
@@ -27570,6 +27719,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="R2" gate="G$1" x="177.8" y="129.54" rot="R90"/>
 <instance part="R5" gate="G$1" x="182.88" y="129.54" rot="R90"/>
 <instance part="R6" gate="G$1" x="187.96" y="129.54" rot="R90"/>
+<instance part="LED1" gate="G$1" x="139.7" y="45.72" rot="R270"/>
+<instance part="LED2" gate="G$1" x="139.7" y="73.66" rot="R270"/>
+<instance part="LED3" gate="G$1" x="139.7" y="58.42" rot="R270"/>
+<instance part="R7" gate="G$1" x="124.46" y="58.42"/>
+<instance part="64KX8" gate="P" x="233.68" y="7.62" rot="R90"/>
+<instance part="JMP1" gate="-0R" x="200.66" y="22.86"/>
+<instance part="JMP1" gate="G$2" x="198.12" y="25.4"/>
 </instances>
 <busses>
 </busses>
@@ -27687,6 +27843,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="53.34" y1="241.3" x2="40.64" y2="241.3" width="0.1524" layer="91"/>
 <label x="40.64" y="241.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="64KX8" gate="P" pin="GND"/>
+<wire x1="241.3" y1="7.62" x2="241.3" y2="2.54" width="0.1524" layer="91"/>
+<label x="241.3" y="2.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5V0" class="0">
 <segment>
@@ -27716,6 +27877,22 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="182.88" y="124.46"/>
 <wire x1="187.96" y1="124.46" x2="187.96" y2="116.84" width="0.1524" layer="91"/>
 <junction x="187.96" y="124.46"/>
+</segment>
+<segment>
+<pinref part="64KX8" gate="P" pin="VCC"/>
+<wire x1="226.06" y1="7.62" x2="226.06" y2="12.7" width="0.1524" layer="91"/>
+<label x="226.06" y="12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JMP1" gate="-0R" pin="1"/>
+<wire x1="200.66" y1="25.4" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
+<label x="200.66" y="27.94" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="64KX8" gate="G$1" pin="!WE"/>
+<wire x1="223.52" y1="22.86" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="22.86" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="JMP1" gate="-0R" pin="2"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -27757,14 +27934,18 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="73.66" y="170.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="LED-WHITE" gate="G$1" pin="A"/>
 <wire x1="147.32" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="73.66" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
 <label x="147.32" y="76.2" size="1.778" layer="95"/>
-<wire x1="147.32" y1="45.72" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="LED-RED" gate="G$1" pin="A"/>
+<wire x1="147.32" y1="45.72" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="58.42" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
 <junction x="147.32" y="73.66"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="142.24" y1="58.42" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
+<junction x="147.32" y="58.42"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VCCINT/VPP"/>
@@ -28429,15 +28610,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="!ERR'" class="0">
 <segment>
-<pinref part="LED-WHITE" gate="G$1" pin="C"/>
 <wire x1="134.62" y1="73.66" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="!LED-WHITE" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
+<label x="114.3" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="RB2"/>
@@ -28459,9 +28641,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="LED-RED" gate="G$1" pin="C"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="!LED-RED" class="0">
@@ -28473,6 +28655,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="45.72" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
+<label x="114.3" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX-S" class="0">
@@ -28482,9 +28665,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="17.78" y="180.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="A" pin="1"/>
-<wire x1="53.34" y1="231.14" x2="40.64" y2="231.14" width="0.1524" layer="91"/>
-<label x="40.64" y="231.14" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="53.34" y1="228.6" x2="40.64" y2="228.6" width="0.1524" layer="91"/>
+<label x="40.64" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CLIENTSTATUS" class="0">
@@ -28522,6 +28705,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="254" y1="114.3" x2="254" y2="104.14" width="0.1524" layer="91"/>
 <label x="254" y="104.14" size="1.778" layer="95" rot="R270"/>
 </segment>
+<segment>
+<pinref part="JMP1" gate="-0R" pin="3"/>
+<wire x1="200.66" y1="20.32" x2="200.66" y2="17.78" width="0.1524" layer="91"/>
+<label x="200.66" y="17.78" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="!MCLR'" class="0">
 <segment>
@@ -28542,9 +28730,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="17.78" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="A" pin="2"/>
-<wire x1="53.34" y1="228.6" x2="40.64" y2="228.6" width="0.1524" layer="91"/>
-<label x="40.64" y="228.6" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="53.34" y1="231.14" x2="40.64" y2="231.14" width="0.1524" layer="91"/>
+<label x="40.64" y="231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A8" class="0">
@@ -28674,13 +28862,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="72.39" y1="68.58" x2="72.39" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="64KX8" gate="G$1" pin="!WE"/>
-<wire x1="223.52" y1="22.86" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="22.86" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="RB0"/>
@@ -28688,11 +28869,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="TP8" gate="G$1" pin="TP"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="LED-BLUE" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="RB3"/>
 <wire x1="71.12" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
+<label x="73.66" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
+<label x="116.84" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -28747,6 +28933,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="U1" gate="G$1" pin="RC8"/>
 <pinref part="TP12" gate="G$1" pin="TP"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<wire x1="129.54" y1="58.42" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
