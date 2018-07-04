@@ -5231,7 +5231,7 @@ design rules under a new name.</description>
 <elements>
 <element name="C1" library="rcl" package="SMC_B" value="10u" x="11.43" y="24.765" smashed="yes" rot="MR90"/>
 <element name="C2" library="rcl" package="SMC_B" value="22u" x="21.59" y="24.765" smashed="yes" rot="MR270"/>
-<element name="U1" library="Microchip-PIC32MX1-2-3-4-5-6-7" package="QFP80P1200X1200X120-44N" value="PIC32MX130F064D-I/PT" x="15.875" y="47.625" smashed="yes" rot="MR45">
+<element name="PIC32MX150F128D" library="Microchip-PIC32MX1-2-3-4-5-6-7" package="QFP80P1200X1200X120-44N" value="PIC32MX130F064D-I/PT" x="15.875" y="47.625" smashed="yes" rot="MR45">
 <attribute name="MPN" value="PIC32MX130F064D-I/PT " x="15.875" y="47.625" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="OC_FARNELL" value="2097777 " x="15.875" y="47.625" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="OC_NEWARK" value="73T1366         " x="15.875" y="47.625" size="1.778" layer="28" rot="MR45" display="off"/>
@@ -5267,7 +5267,7 @@ design rules under a new name.</description>
 <element name="D2" library="diode" package="SOD123" value="" x="6.35" y="34.925" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="4.05" y="33.825" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="IC1" library="xilinx-xc9" package="SQFP-S-10X10-44" value="XC9536_44VQ" x="35.56" y="47.625" smashed="yes" rot="MR45">
+<element name="XC9572XL" library="xilinx-xc9" package="SQFP-S-10X10-44" value="XC9536_44VQ" x="35.56" y="47.625" smashed="yes" rot="MR45">
 <attribute name="MF" value="" x="35.56" y="47.625" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="MPN" value="XC9536-15VQG44C" x="35.56" y="47.625" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="OC_FARNELL" value="1193227" x="35.56" y="47.625" size="1.778" layer="28" rot="MR45" display="off"/>
@@ -5345,19 +5345,19 @@ design rules under a new name.</description>
 <signal name="GND">
 <contactref element="C1" pad="-"/>
 <contactref element="C2" pad="-"/>
-<contactref element="U1" pad="16"/>
-<contactref element="U1" pad="29"/>
-<contactref element="U1" pad="39"/>
-<contactref element="U1" pad="6"/>
+<contactref element="PIC32MX150F128D" pad="16"/>
+<contactref element="PIC32MX150F128D" pad="29"/>
+<contactref element="PIC32MX150F128D" pad="39"/>
+<contactref element="PIC32MX150F128D" pad="6"/>
 <contactref element="C10" pad="2"/>
 <contactref element="C7" pad="2"/>
 <contactref element="IC2" pad="1"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C5" pad="2"/>
-<contactref element="IC1" pad="4"/>
-<contactref element="IC1" pad="25"/>
-<contactref element="IC1" pad="17"/>
+<contactref element="XC9572XL" pad="4"/>
+<contactref element="XC9572XL" pad="25"/>
+<contactref element="XC9572XL" pad="17"/>
 <contactref element="C6" pad="2"/>
 <contactref element="C9" pad="2"/>
 <contactref element="JP1" pad="GND2"/>
@@ -5438,16 +5438,16 @@ design rules under a new name.</description>
 </signal>
 <signal name="3V3">
 <contactref element="C2" pad="+"/>
-<contactref element="U1" pad="17"/>
-<contactref element="U1" pad="28"/>
-<contactref element="U1" pad="40"/>
+<contactref element="PIC32MX150F128D" pad="17"/>
+<contactref element="PIC32MX150F128D" pad="28"/>
+<contactref element="PIC32MX150F128D" pad="40"/>
 <contactref element="IC2" pad="4"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C4" pad="1"/>
 <contactref element="C5" pad="1"/>
-<contactref element="IC1" pad="35"/>
-<contactref element="IC1" pad="26"/>
-<contactref element="IC1" pad="15"/>
+<contactref element="XC9572XL" pad="35"/>
+<contactref element="XC9572XL" pad="26"/>
+<contactref element="XC9572XL" pad="15"/>
 <contactref element="R4" pad="2"/>
 <contactref element="C7" pad="1"/>
 <contactref element="C10" pad="1"/>
@@ -5537,7 +5537,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="A5">
 <contactref element="JP1" pad="A5"/>
-<contactref element="IC1" pad="43"/>
+<contactref element="XC9572XL" pad="43"/>
 <contactref element="64KX8" pad="7"/>
 <wire x1="37.5399" y1="41.119615625" x2="38.25875" y2="40.400765625" width="0.254" layer="16"/>
 <wire x1="38.25875" y1="40.400765625" x2="38.25875" y2="32.54375" width="0.254" layer="16"/>
@@ -5551,7 +5551,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="A3">
 <contactref element="JP1" pad="A3"/>
-<contactref element="IC1" pad="41"/>
+<contactref element="XC9572XL" pad="41"/>
 <contactref element="64KX8" pad="9"/>
 <wire x1="38.671271875" y1="42.2509875" x2="40.005" y2="40.917259375" width="0.254" layer="16"/>
 <wire x1="40.005" y1="12.065" x2="42.545" y2="9.525" width="0.254" layer="16"/>
@@ -5565,7 +5565,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="A0">
 <contactref element="JP1" pad="A0"/>
-<contactref element="IC1" pad="38"/>
+<contactref element="XC9572XL" pad="38"/>
 <contactref element="64KX8" pad="12"/>
 <wire x1="40.368328125" y1="43.94804375" x2="42.70375" y2="41.612621875" width="0.254" layer="16"/>
 <wire x1="45.085" y1="5.461" x2="45.085" y2="10.795" width="0.254" layer="1"/>
@@ -5580,7 +5580,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="A1">
 <contactref element="JP1" pad="A1"/>
-<contactref element="IC1" pad="39"/>
+<contactref element="XC9572XL" pad="39"/>
 <contactref element="64KX8" pad="11"/>
 <wire x1="39.80264375" y1="43.38235625" x2="41.75125" y2="41.43375" width="0.254" layer="16"/>
 <wire x1="41.75125" y1="12.85875" x2="45.085" y2="9.525" width="0.254" layer="16"/>
@@ -5595,7 +5595,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="A2">
 <contactref element="JP1" pad="A2"/>
-<contactref element="IC1" pad="40"/>
+<contactref element="XC9572XL" pad="40"/>
 <contactref element="64KX8" pad="10"/>
 <wire x1="39.23695625" y1="42.816671875" x2="40.79875" y2="41.254878125" width="0.254" layer="16"/>
 <wire x1="42.545" y1="5.461" x2="42.545" y2="10.795" width="0.254" layer="1"/>
@@ -5610,7 +5610,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="A4">
 <contactref element="JP1" pad="A4"/>
-<contactref element="IC1" pad="42"/>
+<contactref element="XC9572XL" pad="42"/>
 <contactref element="64KX8" pad="8"/>
 <wire x1="38.1055875" y1="41.6853" x2="39.21125" y2="40.5796375" width="0.254" layer="16"/>
 <wire x1="40.005" y1="5.461" x2="40.005" y2="10.795" width="0.254" layer="1"/>
@@ -5625,7 +5625,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="A6">
 <contactref element="JP1" pad="A6"/>
-<contactref element="IC1" pad="36"/>
+<contactref element="XC9572XL" pad="36"/>
 <contactref element="64KX8" pad="6"/>
 <wire x1="41.4997" y1="45.0794125" x2="44.45" y2="41.9703625" width="0.254" layer="16"/>
 <wire x1="52.705" y1="5.461" x2="52.705" y2="10.795" width="0.254" layer="1"/>
@@ -5643,7 +5643,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="A7">
 <contactref element="JP1" pad="A7"/>
-<contactref element="IC1" pad="37"/>
+<contactref element="XC9572XL" pad="37"/>
 <contactref element="64KX8" pad="5"/>
 <wire x1="40.9340125" y1="44.513728125" x2="43.65625" y2="41.791490625" width="0.254" layer="16"/>
 <wire x1="52.705" y1="5.461" x2="52.705" y2="9.525" width="0.254" layer="16"/>
@@ -5662,7 +5662,7 @@ design rules under a new name.</description>
 <via x="44.1325" y="13.17625" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="HOSTD0">
-<contactref element="IC1" pad="44"/>
+<contactref element="XC9572XL" pad="44"/>
 <contactref element="JP1" pad="D0"/>
 <contactref element="64KX8" pad="13"/>
 <wire x1="36.974215625" y1="40.55393125" x2="37.465" y2="40.063146875" width="0.254" layer="16"/>
@@ -5676,7 +5676,7 @@ design rules under a new name.</description>
 <via x="37.465" y="24.92375" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="HOSTD1">
-<contactref element="IC1" pad="1"/>
+<contactref element="XC9572XL" pad="1"/>
 <contactref element="JP1" pad="D1"/>
 <contactref element="64KX8" pad="14"/>
 <wire x1="34.1457875" y1="40.55393125" x2="33.3375" y2="39.74564375" width="0.254" layer="16"/>
@@ -5691,7 +5691,7 @@ design rules under a new name.</description>
 <via x="33.3375" y="22.70125" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="HOSTD2">
-<contactref element="IC1" pad="2"/>
+<contactref element="XC9572XL" pad="2"/>
 <contactref element="JP1" pad="D2"/>
 <contactref element="64KX8" pad="15"/>
 <wire x1="34.925" y1="5.461" x2="34.925" y2="10.795" width="0.254" layer="1"/>
@@ -5707,7 +5707,7 @@ design rules under a new name.</description>
 <wire x1="32.54375" y1="40.0832625" x2="32.54375" y2="21.9075" width="0.254" layer="16"/>
 </signal>
 <signal name="HOSTD5">
-<contactref element="IC1" pad="6"/>
+<contactref element="XC9572XL" pad="6"/>
 <contactref element="JP1" pad="D5"/>
 <contactref element="64KX8" pad="19"/>
 <wire x1="32.385" y1="5.461" x2="32.385" y2="9.525" width="0.254" layer="16"/>
@@ -5721,7 +5721,7 @@ design rules under a new name.</description>
 <via x="30.1625" y="19.52625" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="HOSTD7">
-<contactref element="IC1" pad="8"/>
+<contactref element="XC9572XL" pad="8"/>
 <contactref element="JP1" pad="D7"/>
 <contactref element="64KX8" pad="21"/>
 <wire x1="29.845" y1="5.461" x2="29.845" y2="9.525" width="0.254" layer="16"/>
@@ -5736,8 +5736,8 @@ design rules under a new name.</description>
 <wire x1="28.575" y1="42.9027375" x2="28.575" y2="17.93875" width="0.254" layer="16"/>
 </signal>
 <signal name="TDO">
-<contactref element="IC1" pad="24"/>
-<contactref element="U1" pad="33"/>
+<contactref element="XC9572XL" pad="24"/>
+<contactref element="PIC32MX150F128D" pad="33"/>
 <wire x1="14.725528125" y1="54.414071875" x2="15.71625" y2="53.42335" width="0.254" layer="16"/>
 <wire x1="15.71625" y1="53.42335" x2="15.71625" y2="52.705" width="0.254" layer="16"/>
 <via x="15.71625" y="52.705" extent="1-16" drill="0.35"/>
@@ -5751,8 +5751,8 @@ design rules under a new name.</description>
 <wire x1="35.95576875" y1="52.54625" x2="35.8775" y2="52.54625" width="0.254" layer="16"/>
 </signal>
 <signal name="TDI">
-<contactref element="IC1" pad="9"/>
-<contactref element="U1" pad="30"/>
+<contactref element="XC9572XL" pad="9"/>
+<contactref element="PIC32MX150F128D" pad="30"/>
 <via x="31.27375" y="47.78375" extent="1-16" drill="0.35"/>
 <wire x1="31.27375" y1="47.78375" x2="13.97" y2="47.78375" width="0.254" layer="1"/>
 <via x="13.97" y="47.78375" extent="1-16" drill="0.35"/>
@@ -5766,8 +5766,8 @@ design rules under a new name.</description>
 <wire x1="31.95794375" y1="46.78205625" x2="31.322946875" y2="46.78205625" width="0.254" layer="16"/>
 </signal>
 <signal name="TMS">
-<contactref element="IC1" pad="10"/>
-<contactref element="U1" pad="34"/>
+<contactref element="XC9572XL" pad="10"/>
+<contactref element="PIC32MX150F128D" pad="34"/>
 <wire x1="29.05461875" y1="45.6451" x2="28.33576875" y2="44.92625" width="0.254" layer="16"/>
 <wire x1="28.33576875" y1="44.92625" x2="26.51125" y2="44.92625" width="0.254" layer="16"/>
 <wire x1="26.51125" y1="44.92625" x2="26.035" y2="45.4025" width="0.254" layer="16"/>
@@ -5782,8 +5782,8 @@ design rules under a new name.</description>
 <wire x1="32.0675" y1="45.4025" x2="26.035" y2="45.4025" width="0.254" layer="1"/>
 </signal>
 <signal name="TCK">
-<contactref element="IC1" pad="11"/>
-<contactref element="U1" pad="31"/>
+<contactref element="XC9572XL" pad="11"/>
+<contactref element="PIC32MX150F128D" pad="31"/>
 <wire x1="28.488934375" y1="46.210784375" x2="26.843284375" y2="46.210784375" width="0.254" layer="16"/>
 <wire x1="26.843284375" y1="46.210784375" x2="26.82875" y2="46.19625" width="0.254" layer="16"/>
 <via x="26.82875" y="46.19625" extent="1-16" drill="0.35"/>
@@ -5802,7 +5802,7 @@ design rules under a new name.</description>
 <wire x1="26.82875" y1="46.2153" x2="26.82875" y2="46.19625" width="0.254" layer="1"/>
 </signal>
 <signal name="!IORQ">
-<contactref element="IC1" pad="30"/>
+<contactref element="XC9572XL" pad="30"/>
 <contactref element="JP1" pad="/IORQ"/>
 <wire x1="40.9340125" y1="50.73626875" x2="43.53774375" y2="53.34" width="0.254" layer="16"/>
 <wire x1="43.53774375" y1="53.34" x2="43.815" y2="53.34" width="0.254" layer="16"/>
@@ -5818,16 +5818,16 @@ design rules under a new name.</description>
 <wire x1="68.58" y1="53.34" x2="43.815" y2="53.34" width="0.254" layer="1"/>
 </signal>
 <signal name="CLIENTREAD">
-<contactref element="IC1" pad="14"/>
-<contactref element="U1" pad="44"/>
+<contactref element="XC9572XL" pad="14"/>
+<contactref element="PIC32MX150F128D" pad="44"/>
 <wire x1="22.739471875" y1="48.774471875" x2="22.664075" y2="48.774471875" width="0.254" layer="16"/>
 <wire x1="29.620303125" y1="50.170584375" x2="28.3558875" y2="51.435" width="0.254" layer="16"/>
 <wire x1="25.4" y1="51.435" x2="22.739471875" y2="48.774471875" width="0.254" layer="16"/>
 <wire x1="28.3558875" y1="51.435" x2="25.4" y2="51.435" width="0.254" layer="16"/>
 </signal>
 <signal name="CLIENTWRITE">
-<contactref element="IC1" pad="16"/>
-<contactref element="U1" pad="43"/>
+<contactref element="XC9572XL" pad="16"/>
+<contactref element="PIC32MX150F128D" pad="43"/>
 <wire x1="22.268125" y1="49.48484375" x2="22.1073" y2="49.331246875" width="0.254" layer="16"/>
 <wire x1="30.751675" y1="51.301953125" x2="31.888628125" y2="50.165" width="0.254" layer="16"/>
 <wire x1="31.888628125" y1="50.165" x2="31.90875" y2="50.165" width="0.254" layer="16"/>
@@ -5840,7 +5840,7 @@ design rules under a new name.</description>
 <via x="32.0675" y="50.165" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="MOSI">
-<contactref element="U1" pad="9"/>
+<contactref element="PIC32MX150F128D" pad="9"/>
 <wire x1="18.1559875" y1="41.9674375" x2="19.20875" y2="40.914675" width="0.254" layer="16"/>
 <wire x1="19.20875" y1="40.914675" x2="19.20875" y2="40.79875" width="0.254" layer="16"/>
 <via x="19.20875" y="40.79875" extent="1-16" drill="0.35"/>
@@ -5852,7 +5852,7 @@ design rules under a new name.</description>
 <via x="80.01" y="40.79875" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="MISO">
-<contactref element="U1" pad="11"/>
+<contactref element="PIC32MX150F128D" pad="11"/>
 <via x="16.1925" y="42.2275" extent="1-16" drill="0.35"/>
 <wire x1="16.1925" y1="42.2275" x2="16.35125" y2="42.38625" width="0.254" layer="1"/>
 <wire x1="16.35125" y1="42.38625" x2="75.72375" y2="42.38625" width="0.254" layer="1"/>
@@ -5864,7 +5864,7 @@ design rules under a new name.</description>
 <via x="75.72375" y="42.38625" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="!SS">
-<contactref element="U1" pad="19"/>
+<contactref element="PIC32MX150F128D" pad="19"/>
 <contactref element="U$2" pad="2"/>
 <wire x1="10.774215625" y1="44.7872375" x2="12.7" y2="46.713021875" width="0.254" layer="16"/>
 <wire x1="12.7" y1="46.713021875" x2="12.7" y2="46.99" width="0.254" layer="16"/>
@@ -5875,7 +5875,7 @@ design rules under a new name.</description>
 <wire x1="81.49" y1="47.2" x2="81.49" y2="48.895" width="0.254" layer="16"/>
 </signal>
 <signal name="!CD">
-<contactref element="U1" pad="5"/>
+<contactref element="PIC32MX150F128D" pad="5"/>
 <via x="26.035" y="41.5925" extent="1-16" drill="0.35"/>
 <wire x1="26.035" y1="41.5925" x2="73.66" y2="41.5925" width="0.254" layer="1"/>
 <wire x1="20.40105" y1="44.2125" x2="23.02105" y2="41.5925" width="0.254" layer="16"/>
@@ -5886,7 +5886,7 @@ design rules under a new name.</description>
 <wire x1="73.66" y1="48.765" x2="73.66" y2="41.5925" width="0.254" layer="16"/>
 </signal>
 <signal name="!RESET">
-<contactref element="IC1" pad="34"/>
+<contactref element="XC9572XL" pad="34"/>
 <contactref element="D1" pad="C"/>
 <contactref element="JP1" pad="/RESET"/>
 <wire x1="60.325" y1="5.461" x2="60.325" y2="10.16" width="0.254" layer="16"/>
@@ -5912,21 +5912,21 @@ design rules under a new name.</description>
 <wire x1="47.07965" y1="36.195" x2="47.27295" y2="36.47795" width="0.254" layer="1"/>
 </signal>
 <signal name="CLIENTD3">
-<contactref element="U1" pad="36"/>
-<contactref element="IC1" pad="21"/>
+<contactref element="PIC32MX150F128D" pad="36"/>
+<contactref element="XC9572XL" pad="21"/>
 <wire x1="33.580103125" y1="54.13038125" x2="30.401734375" y2="57.30875" width="0.254" layer="16"/>
 <wire x1="22.340928125" y1="57.30875" x2="18.1559875" y2="53.282559375" width="0.254" layer="16"/>
 <wire x1="30.401734375" y1="57.30875" x2="22.340928125" y2="57.30875" width="0.254" layer="16"/>
 </signal>
 <signal name="CLIENTD4">
-<contactref element="U1" pad="37"/>
-<contactref element="IC1" pad="20"/>
+<contactref element="PIC32MX150F128D" pad="37"/>
+<contactref element="XC9572XL" pad="20"/>
 <wire x1="33.014415625" y1="53.564696875" x2="29.9053625" y2="56.67375" width="0.254" layer="16"/>
 <wire x1="22.660728125" y1="56.67375" x2="18.7127625" y2="52.725784375" width="0.254" layer="16"/>
 <wire x1="29.9053625" y1="56.67375" x2="22.660728125" y2="56.67375" width="0.254" layer="16"/>
 </signal>
 <signal name="HOSTD3">
-<contactref element="IC1" pad="3"/>
+<contactref element="XC9572XL" pad="3"/>
 <contactref element="JP1" pad="D3"/>
 <contactref element="64KX8" pad="17"/>
 <wire x1="34.925" y1="5.461" x2="34.925" y2="9.525" width="0.254" layer="16"/>
@@ -5940,7 +5940,7 @@ design rules under a new name.</description>
 <via x="31.75" y="21.11375" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="HOSTD4">
-<contactref element="IC1" pad="5"/>
+<contactref element="XC9572XL" pad="5"/>
 <contactref element="JP1" pad="D4"/>
 <contactref element="64KX8" pad="18"/>
 <wire x1="32.385" y1="5.461" x2="32.385" y2="10.795" width="0.254" layer="1"/>
@@ -5955,7 +5955,7 @@ design rules under a new name.</description>
 <via x="30.95625" y="20.32" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="HOSTD6">
-<contactref element="IC1" pad="7"/>
+<contactref element="XC9572XL" pad="7"/>
 <contactref element="JP1" pad="D6"/>
 <contactref element="64KX8" pad="20"/>
 <wire x1="29.845" y1="5.461" x2="29.845" y2="10.795" width="0.254" layer="1"/>
@@ -5970,14 +5970,14 @@ design rules under a new name.</description>
 <via x="29.36875" y="18.7325" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="VCAP">
-<contactref element="U1" pad="7"/>
+<contactref element="PIC32MX150F128D" pad="7"/>
 <contactref element="C9" pad="1"/>
 <wire x1="19.2875" y1="43.09895" x2="20.55690625" y2="41.82954375" width="0.508" layer="16"/>
 <wire x1="20.55690625" y1="41.82954375" x2="20.91825" y2="41.94675" width="0.254" layer="16"/>
 </signal>
 <signal name="CLIENTD5">
-<contactref element="U1" pad="38"/>
-<contactref element="IC1" pad="19"/>
+<contactref element="PIC32MX150F128D" pad="38"/>
+<contactref element="XC9572XL" pad="19"/>
 <wire x1="32.44873125" y1="52.999009375" x2="29.408990625" y2="56.03875" width="0.254" layer="16"/>
 <wire x1="19.20159375" y1="52.201609375" x2="19.2875" y2="52.151046875" width="0.254" layer="16"/>
 <wire x1="29.408990625" y1="56.03875" x2="23.016453125" y2="56.03875" width="0.254" layer="16"/>
@@ -5985,19 +5985,19 @@ design rules under a new name.</description>
 <wire x1="19.2875" y1="52.309796875" x2="19.2875" y2="52.151046875" width="0.254" layer="16"/>
 </signal>
 <signal name="PGC">
-<contactref element="U1" pad="13"/>
+<contactref element="PIC32MX150F128D" pad="13"/>
 <contactref element="U$4" pad="1"/>
 <wire x1="14.168753125" y1="41.3927" x2="13.335" y2="40.558946875" width="0.254" layer="16"/>
 <wire x1="13.335" y1="40.558946875" x2="13.335" y2="37.465" width="0.254" layer="16"/>
 </signal>
 <signal name="PGD">
-<contactref element="U1" pad="12"/>
+<contactref element="PIC32MX150F128D" pad="12"/>
 <contactref element="U$4" pad="2"/>
 <wire x1="14.725528125" y1="40.835925" x2="14.605" y2="40.715396875" width="0.254" layer="16"/>
 <wire x1="14.605" y1="40.715396875" x2="14.605" y2="37.465" width="0.254" layer="16"/>
 </signal>
 <signal name="!MCLR">
-<contactref element="U1" pad="18"/>
+<contactref element="PIC32MX150F128D" pad="18"/>
 <contactref element="D1" pad="A"/>
 <contactref element="D2" pad="A"/>
 <contactref element="R4" pad="1"/>
@@ -6014,8 +6014,8 @@ design rules under a new name.</description>
 <wire x1="8.89" y1="36.825" x2="6.35" y2="36.825" width="0.254" layer="16"/>
 </signal>
 <signal name="CLIENTD6">
-<contactref element="U1" pad="2"/>
-<contactref element="IC1" pad="13"/>
+<contactref element="PIC32MX150F128D" pad="2"/>
+<contactref element="XC9572XL" pad="13"/>
 <wire x1="29.05461875" y1="49.604896875" x2="28.3234625" y2="50.336053125" width="0.254" layer="16"/>
 <wire x1="28.3234625" y1="50.336053125" x2="27.410990625" y2="50.321128125" width="0.254" layer="16"/>
 <wire x1="27.410990625" y1="50.321128125" x2="27.0901125" y2="49.9785375" width="0.254" layer="16"/>
@@ -6025,15 +6025,15 @@ design rules under a new name.</description>
 <wire x1="27.0901125" y1="48.6801125" x2="23.8125" y2="45.4025" width="0.254" layer="16"/>
 </signal>
 <signal name="CLIENTD7">
-<contactref element="U1" pad="3"/>
-<contactref element="IC1" pad="12"/>
+<contactref element="PIC32MX150F128D" pad="3"/>
+<contactref element="XC9572XL" pad="12"/>
 <wire x1="28.488934375" y1="49.0392125" x2="23.899721875" y2="44.45" width="0.254" layer="16"/>
 <wire x1="22.426575" y1="44.45" x2="21.5325625" y2="45.3440125" width="0.254" layer="16"/>
 <wire x1="23.899721875" y1="44.45" x2="22.426575" y2="44.45" width="0.254" layer="16"/>
 </signal>
 <signal name="CLIENTD0">
-<contactref element="U1" pad="25"/>
-<contactref element="IC1" pad="27"/>
+<contactref element="PIC32MX150F128D" pad="25"/>
+<contactref element="XC9572XL" pad="27"/>
 <wire x1="39.23695625" y1="52.433325" x2="38.23863125" y2="51.435" width="0.254" layer="16"/>
 <wire x1="38.23863125" y1="51.435" x2="38.25875" y2="51.1175" width="0.254" layer="16"/>
 <via x="38.25875" y="51.1175" extent="1-16" drill="0.35"/>
@@ -6046,8 +6046,8 @@ design rules under a new name.</description>
 <wire x1="10.217440625" y1="49.948809375" x2="10.217440625" y2="49.905984375" width="0.254" layer="16"/>
 </signal>
 <signal name="CLIENTD1">
-<contactref element="U1" pad="26"/>
-<contactref element="IC1" pad="23"/>
+<contactref element="PIC32MX150F128D" pad="26"/>
+<contactref element="XC9572XL" pad="23"/>
 <wire x1="36.974215625" y1="54.696065625" x2="35.79028125" y2="55.88" width="0.254" layer="16"/>
 <wire x1="35.79028125" y1="55.88" x2="35.56" y2="55.88" width="0.254" layer="16"/>
 <via x="35.56" y="55.88" extent="1-16" drill="0.35"/>
@@ -6058,8 +6058,8 @@ design rules under a new name.</description>
 <wire x1="6.985" y1="54.251975" x2="10.774215625" y2="50.462759375" width="0.254" layer="16"/>
 </signal>
 <signal name="CLIENTD2">
-<contactref element="U1" pad="27"/>
-<contactref element="IC1" pad="22"/>
+<contactref element="PIC32MX150F128D" pad="27"/>
+<contactref element="XC9572XL" pad="22"/>
 <wire x1="34.1457875" y1="54.696065625" x2="34.925" y2="53.916853125" width="0.254" layer="16"/>
 <wire x1="34.925" y1="53.916853125" x2="34.925" y2="49.53" width="0.254" layer="16"/>
 <via x="34.925" y="49.53" extent="1-16" drill="0.35"/>
@@ -6080,12 +6080,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="!LED-WHITE">
 <contactref element="R1" pad="1"/>
-<contactref element="U1" pad="23"/>
+<contactref element="PIC32MX150F128D" pad="23"/>
 <wire x1="5.715" y1="52.1454" x2="9.085928125" y2="48.774471875" width="0.254" layer="16"/>
 <wire x1="5.715" y1="58.115" x2="5.715" y2="52.1454" width="0.254" layer="16"/>
 </signal>
 <signal name="SCK">
-<contactref element="U1" pad="15"/>
+<contactref element="PIC32MX150F128D" pad="15"/>
 <contactref element="U$2" pad="5"/>
 <wire x1="13.037240625" y1="42.5242125" x2="11.90625" y2="41.393221875" width="0.254" layer="16"/>
 <wire x1="11.90625" y1="41.393221875" x2="11.90625" y2="40.3225" width="0.254" layer="16"/>
@@ -6107,14 +6107,14 @@ design rules under a new name.</description>
 <wire x1="3.33" y1="62.865" x2="5.08" y2="62.865" width="0.254" layer="1"/>
 </signal>
 <signal name="!LED-RED">
-<contactref element="U1" pad="22"/>
+<contactref element="PIC32MX150F128D" pad="22"/>
 <contactref element="R3" pad="1"/>
 <wire x1="3.175" y1="58.115" x2="3.175" y2="52.07" width="0.254" layer="16"/>
 <wire x1="8.769475" y1="46.475525" x2="9.085928125" y2="46.475525" width="0.254" layer="16"/>
 <wire x1="3.175" y1="52.07" x2="8.769475" y2="46.475525" width="0.254" layer="16"/>
 </signal>
 <signal name="TX-S">
-<contactref element="U1" pad="1"/>
+<contactref element="PIC32MX150F128D" pad="1"/>
 <wire x1="24.765" y1="48.57645" x2="24.765" y2="48.5775" width="0.254" layer="16"/>
 <via x="24.765" y="48.5775" extent="1-16" drill="0.35"/>
 <wire x1="24.765" y1="48.5775" x2="85.09" y2="48.5775" width="0.254" layer="1"/>
@@ -6124,8 +6124,8 @@ design rules under a new name.</description>
 <wire x1="85.09" y1="48.5775" x2="85.09" y2="35.56" width="0.254" layer="16"/>
 </signal>
 <signal name="CLIENTSTATUS">
-<contactref element="IC1" pad="18"/>
-<contactref element="U1" pad="42"/>
+<contactref element="XC9572XL" pad="18"/>
+<contactref element="PIC32MX150F128D" pad="42"/>
 <wire x1="31.883046875" y1="52.433325" x2="31.115" y2="53.201371875" width="0.254" layer="16"/>
 <wire x1="31.115" y1="53.201371875" x2="30.32125" y2="53.975" width="0.254" layer="16"/>
 <via x="30.32125" y="53.975" extent="1-16" drill="0.35"/>
@@ -6137,7 +6137,7 @@ design rules under a new name.</description>
 <wire x1="21.807234375" y1="50.064734375" x2="21.5325625" y2="49.905984375" width="0.254" layer="16"/>
 </signal>
 <signal name="!NRD">
-<contactref element="IC1" pad="31"/>
+<contactref element="XC9572XL" pad="31"/>
 <contactref element="JP1" pad="/RD"/>
 <wire x1="62.865" y1="5.461" x2="62.865" y2="10.795" width="0.254" layer="1"/>
 <via x="62.865" y="10.795" extent="1-16" drill="0.35"/>
@@ -6153,7 +6153,7 @@ design rules under a new name.</description>
 <wire x1="69.5325" y1="52.54625" x2="44.7675" y2="52.54625" width="0.254" layer="1"/>
 </signal>
 <signal name="!NWR">
-<contactref element="IC1" pad="32"/>
+<contactref element="XC9572XL" pad="32"/>
 <contactref element="JP1" pad="/WR"/>
 <via x="45.56125" y="51.7525" extent="1-16" drill="0.35"/>
 <wire x1="62.865" y1="5.461" x2="62.865" y2="9.525" width="0.254" layer="16"/>
@@ -6185,7 +6185,7 @@ design rules under a new name.</description>
 <via x="18.415" y="34.925" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="RX-S">
-<contactref element="U1" pad="8"/>
+<contactref element="PIC32MX150F128D" pad="8"/>
 <wire x1="18.7127625" y1="42.5242125" x2="23.495" y2="37.741975" width="0.254" layer="16"/>
 <wire x1="23.495" y1="37.741975" x2="23.495" y2="37.62375" width="0.254" layer="16"/>
 <via x="23.495" y="37.62375" extent="1-16" drill="0.35"/>
@@ -6332,7 +6332,7 @@ design rules under a new name.</description>
 <wire x1="22.225" y1="10.795" x2="22.225" y2="5.461" width="1.27" layer="1"/>
 </signal>
 <signal name="N$4">
-<contactref element="U1" pad="21"/>
+<contactref element="PIC32MX150F128D" pad="21"/>
 <contactref element="TP8" pad="TP"/>
 <wire x1="9.642703125" y1="45.91875" x2="9.126453125" y2="45.4025" width="0.254" layer="16"/>
 <wire x1="9.126453125" y1="45.4025" x2="5.3975" y2="45.4025" width="0.254" layer="16"/>
@@ -6340,7 +6340,7 @@ design rules under a new name.</description>
 <wire x1="3.96875" y1="46.83125" x2="3.4925" y2="46.83125" width="0.254" layer="16"/>
 </signal>
 <signal name="LED-BLUE">
-<contactref element="U1" pad="24"/>
+<contactref element="PIC32MX150F128D" pad="24"/>
 <wire x1="9.642703125" y1="49.331246875" x2="8.7744" y2="50.19955" width="0.254" layer="16"/>
 <wire x1="8.7744" y1="50.19955" x2="8.734275" y2="50.19955" width="0.254" layer="16"/>
 <wire x1="8.734275" y1="50.19955" x2="6.5278" y2="52.406025" width="0.254" layer="16"/>
@@ -6349,7 +6349,7 @@ design rules under a new name.</description>
 <wire x1="6.5278" y1="52.406025" x2="6.5278" y2="56.3878" width="0.254" layer="16"/>
 </signal>
 <signal name="N$6">
-<contactref element="IC1" pad="29"/>
+<contactref element="XC9572XL" pad="29"/>
 <contactref element="TP1" pad="TP"/>
 <wire x1="40.368328125" y1="51.301953125" x2="43.358875" y2="54.2925" width="0.254" layer="16"/>
 <wire x1="43.358875" y1="54.2925" x2="47.625" y2="54.2925" width="0.254" layer="16"/>
@@ -6357,33 +6357,33 @@ design rules under a new name.</description>
 <wire x1="48.26" y1="54.9275" x2="48.26" y2="55.88" width="0.254" layer="16"/>
 </signal>
 <signal name="N$7">
-<contactref element="IC1" pad="28"/>
+<contactref element="XC9572XL" pad="28"/>
 <contactref element="TP2" pad="TP"/>
 <wire x1="39.80264375" y1="51.867640625" x2="43.815003125" y2="55.88" width="0.254" layer="16"/>
 <wire x1="43.815003125" y1="55.88" x2="45.085" y2="55.88" width="0.254" layer="16"/>
 </signal>
 <signal name="N$8">
-<contactref element="IC1" pad="33"/>
+<contactref element="XC9572XL" pad="33"/>
 <contactref element="TP3" pad="TP"/>
 <wire x1="42.63106875" y1="49.0392125" x2="45.5757875" y2="49.0392125" width="0.254" layer="16"/>
 <wire x1="45.5757875" y1="49.0392125" x2="45.72" y2="48.895" width="0.254" layer="16"/>
 </signal>
 <signal name="N$9">
-<contactref element="U1" pad="32"/>
+<contactref element="PIC32MX150F128D" pad="32"/>
 <contactref element="TP5" pad="TP"/>
 <wire x1="14.168753125" y1="53.857296875" x2="13.335" y2="54.69105" width="0.254" layer="16"/>
 <wire x1="13.335" y1="54.69105" x2="13.335" y2="56.515" width="0.254" layer="16"/>
 <wire x1="13.335" y1="56.515" x2="14.605" y2="57.785" width="0.254" layer="16"/>
 </signal>
 <signal name="N$10">
-<contactref element="U1" pad="35"/>
+<contactref element="PIC32MX150F128D" pad="35"/>
 <contactref element="TP6" pad="TP"/>
 <wire x1="17.58125" y1="53.857296875" x2="18.415" y2="54.691046875" width="0.254" layer="16"/>
 <wire x1="18.415" y1="54.691046875" x2="18.415" y2="56.515" width="0.254" layer="16"/>
 <wire x1="18.415" y1="56.515" x2="17.145" y2="57.785" width="0.254" layer="16"/>
 </signal>
 <signal name="N$12">
-<contactref element="U1" pad="20"/>
+<contactref element="PIC32MX150F128D" pad="20"/>
 <contactref element="TP9" pad="TP"/>
 <wire x1="10.217440625" y1="45.3440125" x2="9.482178125" y2="44.60875" width="0.254" layer="16"/>
 <wire x1="9.482178125" y1="44.60875" x2="3.65125" y2="44.60875" width="0.254" layer="16"/>
@@ -6391,7 +6391,7 @@ design rules under a new name.</description>
 <wire x1="3.4925" y1="44.45" x2="3.4925" y2="44.1325" width="0.254" layer="16"/>
 </signal>
 <signal name="N$13">
-<contactref element="U1" pad="14"/>
+<contactref element="PIC32MX150F128D" pad="14"/>
 <contactref element="TP10" pad="TP"/>
 <wire x1="13.594015625" y1="41.9674375" x2="12.7" y2="41.073421875" width="0.254" layer="16"/>
 <wire x1="12.7" y1="41.073421875" x2="12.7" y2="38.0872375" width="0.254" layer="16"/>
@@ -6401,7 +6401,7 @@ design rules under a new name.</description>
 <wire x1="12.7" y1="36.8427625" x2="12.7" y2="34.29" width="0.254" layer="16"/>
 </signal>
 <signal name="N$14">
-<contactref element="U1" pad="10"/>
+<contactref element="PIC32MX150F128D" pad="10"/>
 <contactref element="TP11" pad="TP"/>
 <wire x1="20.955" y1="38.01895" x2="20.955" y2="36.83" width="0.254" layer="16"/>
 <wire x1="17.58125" y1="41.3927" x2="18.44955" y2="40.5244" width="0.254" layer="16"/>
@@ -6411,7 +6411,7 @@ design rules under a new name.</description>
 <wire x1="18.9344" y1="40.03955" x2="20.955" y2="38.01895" width="0.254" layer="16"/>
 </signal>
 <signal name="N$15">
-<contactref element="U1" pad="4"/>
+<contactref element="PIC32MX150F128D" pad="4"/>
 <contactref element="TP12" pad="TP"/>
 <wire x1="20.9757875" y1="44.7872375" x2="22.265525" y2="43.4975" width="0.254" layer="16"/>
 <wire x1="22.265525" y1="43.4975" x2="25.7175" y2="43.4975" width="0.254" layer="16"/>
