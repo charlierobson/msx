@@ -4,3 +4,4 @@
 *.l#?
 outputs
 delme.*
+node_modules
