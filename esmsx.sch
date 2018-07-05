@@ -28869,7 +28869,7 @@ Solder type</description>
 <pinref part="TP8" gate="G$1" pin="TP"/>
 </segment>
 </net>
-<net name="LED-BLUE" class="0">
+<net name="!LED-BLUE" class="0">
 <segment>
 <pinref part="PIC32MX150F128D" gate="G$1" pin="RB3"/>
 <wire x1="71.12" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>

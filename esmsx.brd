@@ -6339,7 +6339,7 @@ design rules under a new name.</description>
 <wire x1="5.3975" y1="45.4025" x2="3.96875" y2="46.83125" width="0.254" layer="16"/>
 <wire x1="3.96875" y1="46.83125" x2="3.4925" y2="46.83125" width="0.254" layer="16"/>
 </signal>
-<signal name="LED-BLUE">
+<signal name="!LED-BLUE">
 <contactref element="PIC32MX150F128D" pad="24"/>
 <wire x1="9.642703125" y1="49.331246875" x2="8.7744" y2="50.19955" width="0.254" layer="16"/>
 <wire x1="8.7744" y1="50.19955" x2="8.734275" y2="50.19955" width="0.254" layer="16"/>
